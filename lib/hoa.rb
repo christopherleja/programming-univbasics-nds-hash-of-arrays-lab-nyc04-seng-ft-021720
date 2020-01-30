@@ -6,5 +6,5 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HOA[:third_earthers].push("#{name}")
+  BASE_HOA[show].push("#{name}")
 end
